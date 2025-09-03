@@ -20,3 +20,8 @@ df['V1115'].head()
 len(df['B_NACE2'].unique())
 
 len(df['B_ISCOD4'].unique())
+
+
+colnam = df.columns[100:120]
+
+df[0:10][colnam]
